@@ -48,7 +48,7 @@ public class TestData {
 		if (userService.findByEmail("test2@user.com") == null) {
 			User testUser2 = new User();
 			testUser2.setEmail("test2@user.com");
-			testUser2.setFirstName("James");
+			testUser2.setFirstName("Bhaskar");
 			testUser2.setLastName("Bond");
 			try {
 				testUser2.setBirthday(DateUtils.parseDate("12/12/1985", new String[] { "dd/MM/yyyy" }));
