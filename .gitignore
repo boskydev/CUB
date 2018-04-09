@@ -1,0 +1,29 @@
+# Compiled source #
+###################
+target/
+bin/
+*.class
+*.war
+*.jar
+*.ear
+
+# Eclipse/Gradle/Idea generated files #
+##################################
+.classpath
+.project
+.gradle/
+.settings/
+*.ipr
+*.iws
+*.iml
+.idea/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
